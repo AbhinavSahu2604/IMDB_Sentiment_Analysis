@@ -46,11 +46,22 @@ This project focuses on building a robust **Natural Language Processing (NLP)** 
 
 ---
 
-## 📊 **Results**
-- **Best Model**: LSTM achieved the highest accuracy of **XX%**.
-- **Key Insights**:
-  - Deep learning outperformed traditional machine learning models.
-  - Sentiment analysis can benefit from advanced text representations.
+## 📊 **Model Evaluation and Results**
+### Performance Metrics:
+- **Accuracy**: **88.20%**
+- **Loss**: **0.3068**
+
+### Confusion Matrix
+The confusion matrix below illustrates the model's performance:
+- **True Positives (TP)**: 4424
+- **True Negatives (TN)**: 4320
+- **False Positives (FP)**: 619
+- **False Negatives (FN)**: 554
+
+
+### Inference:
+- The model demonstrates strong performance in classifying reviews with relatively low false positives and negatives.
+- Effective use of LSTM layers to capture sequential patterns in text data contributed to high accuracy.
 
 ---
 
